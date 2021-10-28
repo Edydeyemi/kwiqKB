@@ -1,0 +1,15 @@
+<?php
+
+define('HOME', 'https://localhost/hrpayroll');
+define('DEBUG', 'FALSE');
+define('DB_HOST', 'localhost');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
+
+
+if (DEBUG == "TRUE") {
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+}

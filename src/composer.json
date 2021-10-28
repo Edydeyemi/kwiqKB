@@ -1,0 +1,36 @@
+{
+  "name": "edydeyemi/kwiqkb",
+  "description": "An opensource quick-to-use Knowledge Base & Help Desk software",
+  "keywords": [
+    "kwiqkb",
+    "Knowledge base",
+    "Help Desk",
+    "Support"
+  ],
+  "homepage": "https://github.com/edydeyemi/kwiqkb",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edydeyemi",
+      "email": "edydeyemi@hotmail.com",
+      "homepage": "https://edwardbabatunde.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "kwiqKB\\": "models",
+      "kwiqKB\\Controllers\\": "controllers"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "bramus/router": "^1.5",
+    "plasticbrain/php-flash-messages": "^1.0",
+    "phpmailer/phpmailer": "^6.1",
+    "sergeytsalkov/meekrodb": "*",
+    "stefangabos/zebra_session": "^3.0",
+    "vlucas/phpdotenv": "^4.1",
+    "phpunit/phpunit": "^9.5"
+  }
+}
